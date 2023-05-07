@@ -1,0 +1,44 @@
+.content img {
+  display: block;
+  max-width: 90vw!important;  
+  object-fit: contain;
+}
+
+.content figure {
+  display: block;
+  max-width: 80vw !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  object-fit: contain;
+  max-height: 40vh;
+}
+
+.content figure >img {
+  display: block;
+  max-width: 80vw !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  object-fit: contain;
+  max-height: 40vh !important;
+}
+
+#offcanvasStumbleW{
+  max-width: 75vw;
+}
+
+.content figcaption {
+    display: none;
+}
+
+.content iframe {
+    display: block;
+    max-width: 80vw !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    object-fit: contain;
+}
+
+
+#main {
+    min-height: calc(100vh - 25px);
+}
