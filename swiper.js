@@ -168,7 +168,7 @@ async function getData() {
     currentIndex = 0;
     if (!getLocalStorage("swiper_feed")) {
         try {
-            const response = await fetch(`https://damp-queen-0d6b.sixyjntpqun7805.workers.dev/`);
+            const response = await fetch(`https://damp-queen-0d6b.t1m3.workers.dev/`);
             const data = await response.json();
             setLocalStorage("swiper_feed", data, 30 * 60000);
             // console.log(data)
